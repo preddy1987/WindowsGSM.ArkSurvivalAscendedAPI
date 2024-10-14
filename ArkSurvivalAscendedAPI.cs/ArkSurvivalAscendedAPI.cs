@@ -18,11 +18,11 @@ namespace WindowsGSM.Plugins
         // - Plugin Details
         public Plugin Plugin = new Plugin
         {
-            name = "WindowsGSM.ArkSurvivalAscended", // WindowsGSM.XXXX
-            author = "sh1ny",
-            description = "WindowsGSM plugin for supporting ArkSurvivalAscended Dedicated Server",
+            name = "WindowsGSM.ArkSurvivalAscendedAPI", // WindowsGSM.XXXX
+            author = "pREDDY",
+            description = "WindowsGSM plugin for supporting ArkSurvivalAscended Dedicated Server with API",
             version = "1.21",
-            url = "https://github.com/sh1ny/WindowsGSM.ArkSurvivalAscended/", // Github repository link (Best practice)
+            url = "https://github.com/pREDDY1987/WindowsGSM.ArkSurvivalAscendedAPI/", // Github repository link (Best practice)
             color = "#34c9eb" // Color Hex
         };
 
@@ -37,8 +37,8 @@ namespace WindowsGSM.Plugins
 
 
         // - Game server Fixed variables
-        public string StartPath = @"ShooterGame\Binaries\Win64\ArkAscendedServer.exe"; // Game server start path
-        public string FullName = "ArkSurvivalAscended Dedicated Server"; // Game server FullName
+        public string StartPath = @"ShooterGame\Binaries\Win64\AsaApiLoader.exe"; // Game server start path
+        public string FullName = "ArkSurvivalAscended Dedicated Server API"; // Game server FullName
         public bool AllowsEmbedConsole = true;  // Does this server support output redirect?
         public int PortIncrements = 2; // This tells WindowsGSM how many ports should skip after installation
         public object QueryMethod = new A2S(); // Query method should be use on current server type. Accepted value: null or new A2S() or new FIVEM() or new UT3()
